@@ -23,9 +23,9 @@ const HeroSection = () => {
             <input
               type="email"
               placeholder="Enter your email address"
-              className="bg-[#282828] pl-14 h-full w-[75%] outline-none"
+              className="bg-[#282828] pl-14 h-full w-[77%] outline-none"
             />
-            <button className="bg-[#E3B748] text-black  p-4  rounded-full">
+            <button className="bg-[#E3B748] text-black  p-4 font-semibold  rounded-full">
               Let’s Talk
             </button>
             <img
