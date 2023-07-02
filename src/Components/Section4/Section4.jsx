@@ -7,7 +7,7 @@ import Image6 from "../../assets/imgGallery/img6.png";
 
 const Section4 = () => {
   return (
-    <div className="flex flex-col justify-center gap-20 pb-16">
+    <div className="flex flex-col justify-center gap-20 pb-24">
       <h2 className="text-center text-white text-[54px] font-semibold">
         Area of Practices
       </h2>
