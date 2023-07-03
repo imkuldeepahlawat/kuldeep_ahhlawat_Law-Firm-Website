@@ -12,7 +12,7 @@ const Accordion = (props) => {
   return (
     <div className=" w-[639px] flex flex-col gap-4">
       {data.map((item, index) => (
-        <div className="w-full" key={item.question}>
+        <div className="w-full  border-b-4 border-[#292929] p-6" key={item.question}>
           <button className='flex w-full justify-between'  onClick={() => handleClick(index)}>
             <h3 className='text-[32px] font-semibold text-left text-white'>{item.question}</h3>
             <span className='w-[40px] h-[40px] text-[22px] font-bold  bg-[#E3B748] rounded-full  h-[28px]'>{activeIndex === index?"-":"+"}</span>
